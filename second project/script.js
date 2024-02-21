@@ -17,6 +17,7 @@ const textNumber = number =>
 
 document.querySelector('.check').addEventListener('click', function () {
   const guess = Number(document.querySelector('.guess').value);
+
   // when there is no input
   if (!guess) {
     displayMessage(' ⛔ No Number!');
